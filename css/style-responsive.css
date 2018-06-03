@@ -1,0 +1,1106 @@
+@media screen and (min-width: 1040px) {
+  #mini-cart .mini-cart-products {
+      max-height: 248px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+}
+@media screen and (max-width: 1820px) {
+  body {
+    font: 14px "Brandon_light", Arial, sans-serif; }
+
+  h3 {
+    font-size: 32px; }
+
+  .main-framework .header-wrapper {
+    padding-bottom: 15px; }
+    .main-framework .header-wrapper header {
+      height: auto;
+      padding: 0 30px; }
+    .main-framework .header-wrapper .header-logo {
+      width: 75px;
+      padding: 30px 0 0; }
+      .main-framework .header-wrapper .header-logo img {
+        width: 100%;
+        height: auto; }
+    .main-framework .header-wrapper .header-contact {
+      padding-left: 15px; }
+      .main-framework .header-wrapper .header-contact .contact-name {
+        display: none; }
+      .main-framework .header-wrapper .header-contact .contact-address:before {
+        content: none; }
+      .main-framework .header-wrapper .header-contact a {
+        text-decoration: underline; }
+    .main-framework .header-wrapper .menu {
+      display: none; }
+      .main-framework .header-wrapper .menu.small-language-wrapper {
+        position: relative;
+        top: -5px;
+        display: block; }
+        .main-framework .header-wrapper .menu.small-language-wrapper label {
+          float: left;
+          display: block;
+          margin-right: 50px; }
+        .main-framework .header-wrapper .menu.small-language-wrapper .toggler {
+          cursor: pointer;
+          display: block;
+          float: right;
+          height: 25px;
+          width: 22px;
+          background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiM3YTdjN2IiLz4KICA8L2c+Cjwvc3ZnPgo=");
+          background-size: 22px; }
+          .main-framework .header-wrapper .menu.small-language-wrapper .toggler.opposite {
+            background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjRweCIgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiPgogIDxnPgogICAgPHBhdGggZmlsbD0iIzdhN2M3YiIgZD0iTTMuMzUyLDQ4LjI5NmwyOC41Ni0yOC4zMjhsMjguNTgsMjguMzQ3YzAuMzk3LDAuMzk0LDAuOTE3LDAuNTksMS40MzYsMC41OWMwLjUyLDAsMS4wNC0wLjE5NiwxLjQzNi0wLjU5ICAgYzAuNzkzLTAuNzg3LDAuNzkzLTIuMDYyLDAtMi44NDlsLTI5Ljk4LTI5LjczNWMtMC4yLTAuMi0wLjQ5NC0wLjM3NS0wLjc1Ny0wLjQ3NWMtMC43NS0wLjI4Mi0xLjU5Ny0wLjEwNy0yLjE2NiwwLjQ1NiAgIEwwLjQ3OSw0NS40NDdjLTAuNzkzLDAuNzg3LTAuNzkzLDIuMDYyLDAsMi44NDlDMS4yNzMsNDkuMDgyLDIuNTU4LDQ5LjA4MiwzLjM1Miw0OC4yOTZ6Ii8+CiAgPC9nPgo8L3N2Zz4K"); }
+        .main-framework .header-wrapper .menu.small-language-wrapper ul {
+          width: 36px;
+          height: 24px;
+          background-color: #f7f7f7;
+          padding: 0 0 5px;
+          overflow: hidden;
+          position: absolute;
+          right: 30px;
+          top: 0;
+          transition: all 0.3s ease-in-out 0s; }
+          .main-framework .header-wrapper .menu.small-language-wrapper ul li {
+            padding: 0;
+            display: block;
+            text-align: center; }
+          .main-framework .header-wrapper .menu.small-language-wrapper ul.whole {
+            height: auto; }
+    .main-framework .header-wrapper .header-search-form {
+      padding-top: 50px; }
+  .main-framework .main-wrapper {
+    padding: 140px 0 0; }
+    .main-framework .main-wrapper .container {
+      width: 100%;
+      padding: 0; }
+    .main-framework .main-wrapper .mid-wrapper {
+      width: 100%; }
+      .main-framework .main-wrapper .mid-wrapper.cancellation-wrapper, .main-framework .main-wrapper .mid-wrapper.confirmation-wrapper, .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper, .main-framework .main-wrapper .mid-wrapper.review-wrapper, .main-framework .main-wrapper .mid-wrapper.cancellation-confirmation-wrapper {
+        padding: 30px; }
+    .main-framework .main-wrapper .group-title {
+      font-size: 32px; }
+    .main-framework .main-wrapper .row-hotel {
+      font-size: 18px; }
+      .main-framework .main-wrapper .row-hotel .img-hotel {
+        width: 40%;
+        height: 300px;
+        overflow: hidden;
+        text-align: center;
+        margin-right: 15px;
+        padding-right: 0; }
+      .main-framework .main-wrapper .row-hotel .cont-hotel {
+        float: left;
+        width: calc(60% - 15px); }
+      .main-framework .main-wrapper .row-hotel .title-hotel {
+        margin-bottom: 10px;
+        padding-bottom: 10px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box {
+        font-size: 15px;
+        min-height: initial;
+        padding-bottom: 60px; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .space-title {
+          float: left; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .space-subtitle {
+          position: absolute;
+          padding-top: 0;
+          top: 20px; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .add-room {
+          padding-top: 0;
+          position: absolute;
+          bottom: 15px;
+          right: 0; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box span {
+          font-size: 15px; }
+          .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box span.reg-price {
+            font-size: 20px; }
+          .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box span.disc-price {
+            vertical-align: initial; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box p {
+          font-size: 14px; }
+          .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box p:first-child {
+            margin-bottom: 0; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel:nth-child(2) .ref-box {
+        margin-bottom: 10px;
+        padding-bottom: 60px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .slct,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .slct {
+        font-size: 32px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper {
+        padding: 30px 15% 0; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-header {
+          height: 64px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box {
+          width: 133px; }
+          .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box input {
+            width: 100px;
+            height: 60px;
+            font-size: 48px;
+            line-height: 60px; }
+          .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box span {
+            width: 33px;
+            height: 30px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .addon-icon {
+        height: 110px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .dscrb {
+        font-size: 16px;
+        min-height: 32px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .amnt {
+        font-size: 24px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description, 
+      .main-framework .pop-in-privacy-policy .popover-content-description, 
+      .main-framework .pop-in-terms-and-conditions .popover-content-description, 
+      .main-framework .pop-in-cancellation-policy .popover-content-description,
+      .main-framework .pop-in-room-block-policy .popover-content-description {
+        padding: 75px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description .close-pop,
+        .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description .close-pop, 
+        .main-framework .pop-in-privacy-policy .popover-content-description .close-pop, 
+        .main-framework .pop-in-terms-and-conditions .popover-content-description .close-pop, 
+        .main-framework .pop-in-cancellation-policy .popover-content-description .close-pop,
+        .main-framework .pop-in-room-block-policy .popover-content-description .close-pop {
+          top: 10px;
+          right: 10px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room, 
+      .main-framework .pop-in-privacy-policy, 
+      .main-framework .pop-in-terms-and-conditions, 
+      .main-framework .pop-in-cancellation-policy,
+      .main-framework .pop-in-room-block-policy {
+        padding: 60px 10%; }
+      .main-framework .main-wrapper .row-hotel.grouped-row .inner-hotel .ref-box .space-subtitle {
+        top: auto; }
+    .main-framework .main-wrapper .ui-accordion-content .row-hotel .inner-hotel .ref-box .add-room {
+      right: 15px; }
+    .main-framework .main-wrapper .ui-accordion-content .row-hotel .inner-hotel .ref-box .space-subtitle {
+      top: auto; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form label {
+      width: 30%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form input,
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form textarea {
+      width: 70%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form textarea {
+      max-width: 70%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form p.warning {
+      padding-left: 30%; } }
+@media screen and (max-width: 1040px) {
+  h3 {
+    font-size: 24px; }
+
+  .popup-form-wrapper .block-header {
+    background: transparent;
+    padding: 30px 30px 0; }
+    .popup-form-wrapper .block-header .close-sign-pop {
+      top: 30px; }
+
+  .tooltip.show-box .tt-box {
+    left: auto;
+    right: -30px; }
+    .tooltip.show-box .tt-box:after {
+      left: 92%; }
+
+  .button-lite {
+    width: auto;
+    padding: 0 22px; }
+
+  .button-mobile {
+    display: inline-block;
+    margin-bottom: 30px; }
+
+  .mobile-button-holder {
+    overflow: hidden; }
+
+  #mini-cart {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%; }
+    #mini-cart .mini-product .mini-image {
+      width: 180px; }
+    #mini-cart .mini-product .mini-data {
+      width: calc(100% - 180px); }
+    #mini-cart .mini-product .mini-title {
+      font-size: 23px; }
+    #mini-cart .mini-product .mini-subtitle {
+      font-size: 16px; }
+    #mini-cart .mini-buttons .button {
+      width: 49%;
+      margin: 0 0 15px;
+      margin-right: 2%; }
+      #mini-cart .mini-buttons .button:first-child {
+        margin-right: 0; }
+      #mini-cart .mini-buttons .button.fw {
+        margin: 0;
+        width: 100%; }
+    #mini-cart .additional-checkout-options a {
+      width: 49%; }
+
+  .product .product-image,
+  .product .product-data {
+    min-height: 150px; }
+  .product .product-image {
+    width: 30%; }
+  .product .product-data {
+    width: 70%;
+    padding-bottom: 75px; }
+
+  .main-framework .header-wrapper {
+    padding-bottom: 0;
+    transition: all 0.3s ease-in-out 0s; }
+    .main-framework .header-wrapper .header-search-form {
+      transition: all 0.25s ease-in-out 0s;
+      padding-top: 82px;
+      padding-bottom: 0; }
+      .main-framework .header-wrapper .header-search-form .section-cart {
+        margin-right: 6px; }
+      .main-framework .header-wrapper .header-search-form .section-book-now {
+        display: none; }
+    .main-framework .header-wrapper .popup-form-wrapper .section-buttons .button {
+      width: 45%; }
+    .main-framework .header-wrapper .header-logo,
+    .main-framework .header-wrapper .header-language {
+      transition: all 0.3s ease-in-out 0s; }
+    .main-framework .header-wrapper .header-contact {
+      font-size: 12px;
+      display: block;
+      padding-left: 0;
+      padding-top: 15px;
+      padding-bottom: 30px; }
+    .main-framework .header-wrapper.mini .header-logo {
+      padding: 15px 0;
+      width: 55px; }
+    .main-framework .header-wrapper.mini .header-language {
+      padding-top: 15px; }
+    .main-framework .header-wrapper.mini .header-contact,
+    .main-framework .header-wrapper.mini .section-user {
+      display: none; }
+    .main-framework .header-wrapper.mini .header-search-form {
+      padding-top: 22px; }
+  .main-framework .steps {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .main-framework .main-wrapper {
+    padding: 172px 0 0; }
+    .main-framework .main-wrapper .sidebarbox-wrapper,
+    .main-framework .main-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .descriptions,
+    .main-framework .main-wrapper .review-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .booking-payment-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .review-wrapper .sidebarbox-wrapper,
+    .main-framework .main-wrapper .booking-payment-wrapper .sidebarbox-wrapper {
+      width: auto;
+      float: none;
+      padding: 0 30px; }
+    .main-framework .main-wrapper .mid-wrapper.cancellation-wrapper, .main-framework .main-wrapper .mid-wrapper.confirmation-wrapper, .main-framework .main-wrapper .mid-wrapper.review-wrapper, .main-framework .main-wrapper .mid-wrapper.cancellation-confirmation-wrapper {
+      padding: 30px; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper {
+      padding: 0 0 30px; }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #billing-information .text-box:first-child,
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #payment-information .text-box:first-child {
+        border-bottom: none; }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #payment-information .mr-form select {
+        width: calc(50% - 214px/2);
+        margin-bottom: 15px; }
+        .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #payment-information .mr-form select.countrybook {
+          height: 43px;
+        }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #payment-information .mr-form label.mid-label {
+        text-align: left; }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper #payment-information .mr-form input.mid-input {
+        width: calc(100% - 196px - 30px); }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form .enter-promo .promo-input {
+        width: calc(100% - 200px - 180px - 20px); }
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .change-guest-name,
+      .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .text-box.borderless {
+        margin-bottom: 30px; }
+        .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .change-guest-name .button,
+        .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .text-box.borderless .button {
+          width: auto;
+          padding: 0 10px; } 
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .steps {
+      padding: 0 0 30px; }
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .sidebarbox-wrapper {
+      padding: 0; }
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .text-box.confirmation {
+      float: none;
+      width: auto;
+      padding: 30px 30px 0 60px; }
+    .main-framework .main-wrapper .group-title {
+      font-size: 24px; }
+    .main-framework .main-wrapper .availability-info-mobile {
+      display: block;
+      overflow: hidden; }
+      .main-framework .main-wrapper .availability-info-mobile .availability,
+      .main-framework .main-wrapper .availability-info-mobile .info-box {
+        min-height: 100px;
+        width: 33.33%;
+        float: left;
+        padding: 0 30px;
+        border: none;
+        border-right: 1px solid #dedede; }
+        .main-framework .main-wrapper .availability-info-mobile .availability h3,
+        .main-framework .main-wrapper .availability-info-mobile .info-box h3 {
+          font-size: 24px;
+          font-family: "Brandon_reg";
+          margin-bottom: 10px; }
+          .main-framework .main-wrapper .availability-info-mobile .availability h3 b,
+          .main-framework .main-wrapper .availability-info-mobile .info-box h3 b {
+            font: inherit; }
+      .main-framework .main-wrapper .availability-info-mobile .availability {
+        margin: 0;
+        float: right; }
+        .main-framework .main-wrapper .availability-info-mobile .availability .dates li {
+          width: 33.33%; }
+        .main-framework .main-wrapper .availability-info-mobile .availability h5 {
+          margin-bottom: 10px;
+          font-size: 16px;
+          line-height: 1; }
+    .main-framework .main-wrapper .sidebarbox-wrapper aside .availability,
+    .main-framework .main-wrapper .sidebarbox-wrapper aside .info-box {
+      display: none; }
+    .main-framework .main-wrapper .row-hotel {
+      font-size: 14px; }
+      .main-framework .main-wrapper .row-hotel .img-hotel {
+        margin-right: 15px; }
+      .main-framework .main-wrapper .row-hotel .space-title {
+        font-size: 18px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .prices-box .disc-price {
+        display: none; }
+      .main-framework .main-wrapper .row-hotel .addon-wrapper .addon-icon img {
+        width: 25%; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room {
+        padding: 0; }
+    .main-framework .main-wrapper .descriptions .desc {
+      width: 50%;
+      font-size: 14px; }
+      .main-framework .main-wrapper .descriptions .desc.desc-list {
+        width: auto;
+        float: none;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dedede; }
+        .main-framework .main-wrapper .descriptions .desc.desc-list ul {
+          overflow: hidden; }
+          .main-framework .main-wrapper .descriptions .desc.desc-list ul li {
+            float: left;
+            width: 50%; }
+    .main-framework .main-wrapper .select-checkout-wrapper {
+      padding-bottom: 60px; }
+      .main-framework .main-wrapper .select-checkout-wrapper .steps {
+        padding: 0 15px; }
+      .main-framework .main-wrapper .select-checkout-wrapper .desired-checkout {
+        margin-bottom: 0;
+        padding: 60px 0; }
+      .main-framework .main-wrapper .select-checkout-wrapper .checkout-options .checkout-option, .main-framework .main-wrapper .select-checkout-wrapper.select-checkout-wrapper-safari .checkout-options .checkout-option {
+        min-height: 275px;
+        width: auto;
+        float: none;
+        border: none;
+        border-bottom: 1px solid #dedede; } 
+        .main-framework .main-wrapper .select-checkout-wrapper .checkout-options .checkout-option .button, .main-framework .main-wrapper .select-checkout-wrapper.select-checkout-wrapper-safari .checkout-options .checkout-option .button {
+          width: auto;
+          min-width: 180px; }
+    .main-framework .main-wrapper .carousel .flex-direction-nav li:before {
+      top: 0;
+      height: 100%; }
+    .main-framework .main-wrapper .carousel .flex-direction-nav a {
+      top: 48%; }
+    .main-framework .main-wrapper .carousel #carousel .flex-direction-nav a {
+      top: 15px; }
+    .main-framework .main-wrapper .products .product-title {
+      padding-top: 0;
+      font-size: 20px; }
+    .main-framework .main-wrapper .products .product-subtitle,
+    .main-framework .main-wrapper .products .product-costs {
+      font-size: 14px; }
+
+    .confirmation-wrapper .product-subtitle span.addon-mini {
+        width: 19%;
+      }
+
+    .confirmation-wrapper .product-subtitle span.addon-mini-times {
+        font-size: 7px;
+      }
+      .confirmation-wrapper .product-subtitle span.addon-mini-ammount {
+        font-size: 11px;
+      }
+      .confirmation-wrapper .product-subtitle span.addon-mini-price {
+        font-size: 11px;
+      }
+
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .ui-accordion h3.ui-accordion-header span {
+      line-height: 40px; }
+    .main-framework .main-wrapper .grouped-row.row-hotel .inner-hotel .ref-box .space-subtitle,
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .packages-rooms-list .row-hotel .inner-hotel .ref-box .space-subtitle {
+      top: 70px; }
+    .main-framework .main-wrapper .grouped-row.row-hotel .inner-hotel .ref-box .add-room,
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .packages-rooms-list .row-hotel .inner-hotel .ref-box .add-room {
+      right: 15px; }
+    .main-framework .main-wrapper .step-one-checkout h3 {
+      font-size: 24px;
+      padding-bottom: 18px;
+      margin-bottom: 37px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .guest-checkout h4,
+    .main-framework .main-wrapper .step-one-checkout .sign-up-or-login h4,
+    .main-framework .main-wrapper .step-one-checkout .sign-up-or-login h4 a {
+      font-size: 15px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .guest-checkout h4 {
+      padding-bottom: 16px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .guest-checkout p {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .sign-up-or-login h4 {
+      padding-bottom: 7px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .sign-up-or-login label {
+      font-size: 15px;
+      width: 90px;
+    }
+    .main-framework .main-wrapper .step-one-checkout .sign-up-or-login input {
+      float: right;
+      width: calc(100% - 94px);
+    }
+    .main-framework .main-wrapper .step-one-checkout .guest-checkout button, .main-framework .main-wrapper .step-one-checkout .sign-up-or-login button {
+      width: calc(100% - 94px);
+    }
+       }
+@media screen and (max-width: 630px) {
+  body {
+    font-size: 12px; }
+
+  h3 {
+    font-size: 18px;
+    font-family: "Brandon_med"; }
+
+  .button-lite {
+    width: auto;
+    padding: 0 15px; }
+
+  .text-box {
+    font-size: 15px;
+    padding: 15px; }
+    .text-box .guest-name {
+      font-size: 18px; }
+    .text-box .promo {
+      font-size: 14px; }
+
+  .block-header {
+    font-size: 15px;
+    padding: 15px; }
+    .block-header .edit {
+      padding: 0 15px;
+      right: 7px;
+      top: 7px;
+      line-height: 30px; }
+
+  .mr-form {
+    padding: 15px; }
+    .mr-form label {
+      font-size: 12px; }
+    .mr-form p.form-subtitle {
+      font-size: 15px; }
+
+  #mini-cart {
+    font-size: 14px;
+    max-height: 100%;
+    overflow-y: auto; }
+    #mini-cart .mini-product .mini-data {
+      padding: 10px; }
+      #mini-cart .mini-product .mini-data .remove-item {
+        width: 25px;
+        height: 25px;
+        background-size: 11px; }
+    #mini-cart .mini-product .mini-title {
+      font-size: 13px; }
+    #mini-cart .mini-product .mini-subtitle {
+      font-size: 11px;
+      line-height: 14px;
+      padding-top: 6px; }
+    #mini-cart .mini-product .mini-costs {
+      font-size: 12px; }
+
+  #ui-datepicker-div {
+    margin-left: -20px !important; }
+
+  .button {
+    min-width: 160px;
+    width: 100%;
+    font-size: 12px; }
+
+  .main-framework .header-wrapper header {
+    padding: 0 15px; }
+  .main-framework .header-wrapper .header-search-form {
+    padding-top: 105px; }
+    .main-framework .header-wrapper .header-search-form .section-button {
+      font-size: 12px; }
+      .main-framework .header-wrapper .header-search-form .section-button > a {
+        font-family: "Brandon_bld"; }
+    .main-framework .header-wrapper .header-search-form .section-user {
+      margin: 0;
+      min-width: 70px;
+      position: relative; }
+      .main-framework .header-wrapper .header-search-form .section-user .user-links {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%; }
+        .main-framework .header-wrapper .header-search-form .section-user .user-links a {
+          display: block;
+          background: #fff;
+          color: #7a7c7b;
+          text-decoration: none;
+          border: 1px solid #dedede;
+          padding: 5px 10px; }
+          .main-framework .header-wrapper .header-search-form .section-user .user-links a:last-child {
+            border-top: none; }
+        .main-framework .header-wrapper .header-search-form .section-user .user-links b {
+          display: none; }
+      .main-framework .header-wrapper .header-search-form .section-user .switch {
+        cursor: pointer;
+        display: block;
+        float: right;
+        height: 17px;
+        width: 17px;
+        margin-left: 4px;
+        background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiM3YTdjN2IiLz4KICA8L2c+Cjwvc3ZnPgo=");
+        background-size: 17px; }
+        .main-framework .header-wrapper .header-search-form .section-user .switch.opposite {
+          background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjRweCIgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiPgogIDxnPgogICAgPHBhdGggZmlsbD0iIzdhN2M3YiIgZD0iTTMuMzUyLDQ4LjI5NmwyOC41Ni0yOC4zMjhsMjguNTgsMjguMzQ3YzAuMzk3LDAuMzk0LDAuOTE3LDAuNTksMS40MzYsMC41OWMwLjUyLDAsMS4wNC0wLjE5NiwxLjQzNi0wLjU5ICAgYzAuNzkzLTAuNzg3LDAuNzkzLTIuMDYyLDAtMi44NDlsLTI5Ljk4LTI5LjczNWMtMC4yLTAuMi0wLjQ5NC0wLjM3NS0wLjc1Ny0wLjQ3NWMtMC43NS0wLjI4Mi0xLjU5Ny0wLjEwNy0yLjE2NiwwLjQ1NiAgIEwwLjQ3OSw0NS40NDdjLTAuNzkzLDAuNzg3LTAuNzkzLDIuMDYyLDAsMi44NDlDMS4yNzMsNDkuMDgyLDIuNTU4LDQ5LjA4MiwzLjM1Miw0OC4yOTZ6Ii8+CiAgPC9nPgo8L3N2Zz4K"); }
+  .main-framework .header-wrapper .header-contact .contact-address {
+    float: none;
+    display: block;
+    margin-bottom: 5px; }
+    .main-framework .header-wrapper .header-contact .contact-address a {
+      text-decoration: none; }
+  .main-framework .header-wrapper .header-contact .contact-phone:before {
+    content: none; }
+  .main-framework .header-wrapper .header-logo,
+  .main-framework .header-wrapper .header-language {
+    padding-top: 15px; }
+  .main-framework .header-wrapper .menu.small-language-wrapper ul {
+    font-size: 14px; }
+  .main-framework .header-wrapper .popup-form-wrapper {
+    padding: 0;
+    overflow: hidden; }
+    .main-framework .header-wrapper .popup-form-wrapper .sign-container {
+      width: 100%;
+      height: 100%;
+      overflow: auto; }
+    .main-framework .header-wrapper .popup-form-wrapper .mr-form {
+      padding: 15px; }
+  .main-framework .header-wrapper #edit-account label {
+    width: 30%; }
+    .main-framework .header-wrapper #edit-account label.small-label {
+      width: 30%;
+      text-align: left; }
+  .main-framework .header-wrapper #edit-account input,
+  .main-framework .header-wrapper #edit-account select {
+    width: 70%; }
+  .main-framework .header-wrapper #edit-account input.small-input, .main-framework .header-wrapper #edit-account input.mid-input {
+    width: 70%;
+    margin-bottom: 15px; }
+  .main-framework .steps {
+    padding-left: 0;
+    padding-right: 0; }
+    .main-framework .steps .step {
+      font-family: "Brandon_bld"; }
+      .main-framework .steps .step:before {
+        display: inline-block; }
+      .main-framework .steps .step.step-1:before {
+        content: "1."; }
+      .main-framework .steps .step.step-2:before {
+        content: "2."; }
+      .main-framework .steps .step.step-3:before {
+        content: "3."; }
+      .main-framework .steps .step i {
+        display: none; }
+  .main-framework .main-wrapper {
+    padding: 175px 0 0; }
+    .main-framework .main-wrapper .sidebarbox-wrapper,
+    .main-framework .main-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .descriptions,
+    .main-framework .main-wrapper .review-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .booking-payment-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .review-wrapper .sidebarbox-wrapper {
+      padding: 0 15px; }
+    .main-framework .main-wrapper .booking-payment-wrapper .main-content-wrapper,
+    .main-framework .main-wrapper .booking-payment-wrapper .sidebarbox-wrapper {
+      padding: 0; }
+    .main-framework .main-wrapper .mid-wrapper.cancellation-wrapper, .main-framework .main-wrapper .mid-wrapper.confirmation-wrapper, .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper, .main-framework .main-wrapper .mid-wrapper.review-wrapper, .main-framework .main-wrapper .mid-wrapper.cancellation-confirmation-wrapper {
+      padding: 30px 15px; }
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .review-products, .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .review-products {
+      font-size: 12px; }
+    .main-framework .main-wrapper .mid-wrapper.review-wrapper .text-box.confirmation {
+      padding: 15px 15px 0 30px; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form label {
+      width: 30%;
+      text-align: left;
+      line-height: 1.5;
+      clear: left; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form input,
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form select,
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form textarea {
+      width: 70%;
+      padding: 8px;
+      font-size: 12px; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form textarea {
+      max-width: 70%; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form input.mid-input {
+      margin-bottom: 15px; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form .text-box.borderless {
+      padding: 0; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form .enter-promo input.promo-input {
+      width: 35%;
+      padding: 8px; }
+    .main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper .mr-form .enter-promo .button {
+      min-width: 25%;
+      padding: 0 10px; }
+    .main-framework .main-wrapper .group-title {
+      font-size: 20px;
+      padding: 10px 15px; }
+    .main-framework .main-wrapper .calendar {
+      clear: both;
+      padding: 15px;
+      margin: 0; }
+      .main-framework .main-wrapper .calendar .cal-box {
+        float: left;
+        width: 49%;
+        min-width: 0;
+        display: block;
+        margin-right: 2%;
+        margin-bottom: 10px;
+        padding: 5px; }
+        .main-framework .main-wrapper .calendar .cal-box:nth-child(2) {
+          margin-right: 0; }
+        .main-framework .main-wrapper .calendar .cal-box label span {
+          display: none; }
+        .main-framework .main-wrapper .calendar .cal-box input {
+          padding-right: 0;
+          font-size: 12px;
+          width: 50%; }
+    .main-framework .main-wrapper .availability-info-mobile {
+      margin-bottom: 15px; }
+      .main-framework .main-wrapper .availability-info-mobile .availability,
+      .main-framework .main-wrapper .availability-info-mobile .info-box {
+        min-height: 0;
+        width: auto;
+        float: none;
+        margin: 0;
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid #dedede; }
+      .main-framework .main-wrapper .availability-info-mobile .availability .dates li {
+        width: auto;
+        margin-right: 15px; }
+      .main-framework .main-wrapper .availability-info-mobile .availability .info-box h3 {
+        font-size: 18px;
+        font-family: "Brandon_med"; }
+      .main-framework .main-wrapper .availability-info-mobile .availability h5 {
+        margin-bottom: 0; }
+    .main-framework .main-wrapper .sidebarbox-wrapper {
+      font-size: 14px; }
+      .main-framework .main-wrapper .sidebarbox-wrapper .cart-sidebar .mini-products .mini-buttons .button {
+        width: 49%;
+        min-width: 0; }
+    .main-framework .main-wrapper .carousel {
+      margin: 0; }
+    .main-framework .main-wrapper .products .product-title {
+      font-size: 15px; }
+    .main-framework .main-wrapper .products .product-subtitle {
+      font-size: 9px;
+      padding-top: 3px; }
+
+    .confirmation-wrapper .product-subtitle span.addon-mini {
+        width: 19%;
+      }
+
+    .confirmation-wrapper .product-subtitle span.addon-mini-times {
+        font-size: 7px;
+      }
+      .confirmation-wrapper .product-subtitle span.addon-mini-ammount {
+        font-size: 11px;
+      }
+      .confirmation-wrapper .product-subtitle span.addon-mini-price {
+        font-size: 11px;
+      }
+
+    .main-framework .main-wrapper .products .product-costs {
+      font-size: 12px; }
+    .main-framework .main-wrapper .product-total.grand-total {
+      font-size: 16px; }
+    .main-framework .main-wrapper .row-hotel .img-hotel {
+      margin: 0 0 10px;
+      height: auto;
+      width: auto;
+      float: none; }
+      .main-framework .main-wrapper .row-hotel .img-hotel img {
+        max-width: 100%;
+        height: auto; }
+    .main-framework .main-wrapper .row-hotel .cont-hotel {
+      width: auto;
+      float: none; }
+    .main-framework .main-wrapper .row-hotel .title-hotel .more-room-info {
+      font-size: 12px; }
+    .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box {
+      font-size: 12px;
+      padding-bottom: 60px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .space-title {
+        font-size: 15px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .add-room {
+        bottom: 10px; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .add-room .button {
+          font-size: 12px;
+          padding: 0 10px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .off-title {
+        bottom: 10px; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .off-title .button-lite {
+          font-size: 15px;
+          line-height: 30px; }
+      .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box p {
+        font-size: 15px; }
+        .main-framework .main-wrapper .row-hotel .inner-hotel .ref-box .prices-box p span.reg-price {
+          font-size: 15px;
+          vertical-align: text-bottom; }
+    .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description,
+    .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description, 
+    .main-framework .pop-in-privacy-policy .popover-content-description, 
+    .main-framework .pop-in-terms-and-conditions .popover-content-description, 
+    .main-framework .pop-in-cancellation-policy .popover-content-description,
+    .main-framework .pop-in-room-block-policy .popover-content-description {
+      padding: 60px 15px;
+      min-height: 100%; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description h3,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description h3, 
+      .main-framework .pop-in-privacy-policy .popover-content-description h3, 
+      .main-framework .pop-in-terms-and-conditions .popover-content-description h3, 
+      .main-framework .pop-in-cancellation-policy .popover-content-description h3,
+      .main-framework .pop-in-room-block-policy .popover-content-description h3 {
+        font-size: 24px;
+        margin-bottom: 15px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description .rate-desc,
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description .info-room-pop,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description .rate-desc, 
+      .main-framework .pop-in-privacy-policy .popover-content-description .rate-desc, 
+      .main-framework .pop-in-terms-and-conditions .popover-content-description .rate-desc, 
+      .main-framework .pop-in-cancellation-policy .popover-content-description .rate-desc, 
+      .main-framework .pop-in-room-block-policy .popover-content-description .rate-desc,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description .info-room-pop, 
+      .main-framework .pop-in-privacy-policy .popover-content-description .info-room-pop, 
+      .main-framework .pop-in-terms-and-conditions .popover-content-description .info-room-pop, 
+      .main-framework .pop-in-cancellation-policy .popover-content-description .info-room-pop,
+      .main-framework .pop-in-room-block-policy .popover-content-description .info-room-pop {
+        font-size: 15px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description .close-pop,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description .close-pop, 
+      .main-framework .pop-in-privacy-policy .popover-content-description .close-pop, 
+      .main-framework .pop-in-terms-and-conditions .popover-content-description .close-pop, 
+      .main-framework .pop-in-cancellation-policy .popover-content-description .close-pop,
+      .main-framework .pop-in-room-block-policy .popover-content-description .close-pop {
+        width: 33px;
+        top: 6px;
+        right: 15px;
+        font-size: 11px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-rate-room .popover-content-description .close-pop img,
+        .main-framework .main-wrapper .row-hotel .pop-in-description-room .popover-content-description .close-pop img, 
+        .main-framework .pop-in-privacy-policy .popover-content-description .close-pop img, 
+        .main-framework .pop-in-terms-and-conditions .popover-content-description .close-pop img, 
+        .main-framework .pop-in-cancellation-policy .popover-content-description .close-pop img,
+        .main-framework .pop-in-room-block-policy .popover-content-description .close-pop img {
+          max-width: 80%;
+          height: auto; }
+    .main-framework .main-wrapper .row-hotel .pop-in-rate-room .list-items-cart-rate,
+    .main-framework .main-wrapper .row-hotel .pop-in-description-room .list-items-cart-rate, 
+    .main-framework .pop-in-privacy-policy .list-items-cart-rate, 
+    .main-framework .pop-in-terms-and-conditions .list-items-cart-rate, 
+    .main-framework .pop-in-cancellation-policy .list-items-cart-rate,
+    .main-framework .pop-in-room-block-policy .list-items-cart-rate {
+      display: none; }
+      .main-framework .main-wrapper .row-hotel .pop-in-rate-room .list-items-cart-rate.stacktable.small-only,
+      .main-framework .main-wrapper .row-hotel .pop-in-description-room .list-items-cart-rate.stacktable.small-only, 
+      .main-framework .pop-in-privacy-policy .list-items-cart-rate.stacktable.small-only, 
+      .main-framework .pop-in-terms-and-conditions .list-items-cart-rate.stacktable.small-only, 
+      .main-framework .pop-in-cancellation-policy .list-items-cart-rate.stacktable.small-only,
+      .main-framework .pop-in-room-block-policy .list-items-cart-rate.stacktable.small-only {
+        display: table; }
+        .main-framework .main-wrapper .row-hotel .pop-in-rate-room .list-items-cart-rate.stacktable.small-only td,
+        .main-framework .main-wrapper .row-hotel .pop-in-description-room .list-items-cart-rate.stacktable.small-only td, 
+        .main-framework .pop-in-privacy-policy .list-items-cart-rate.stacktable.small-only td, 
+        .main-framework .pop-in-terms-and-conditions .list-items-cart-rate.stacktable.small-only td, 
+        .main-framework .pop-in-cancellation-policy .list-items-cart-rate.stacktable.small-only td,
+        .main-framework .pop-in-room-block-policy .list-items-cart-rate.stacktable.small-only td {
+          padding: 5px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-rate-room .list-items-cart-rate.stacktable.small-only .st-key,
+        .main-framework .main-wrapper .row-hotel .pop-in-description-room .list-items-cart-rate.stacktable.small-only .st-key, 
+        .main-framework .pop-in-privacy-policy .list-items-cart-rate.stacktable.small-only .st-key, 
+        .main-framework .pop-in-terms-and-conditions .list-items-cart-rate.stacktable.small-only .st-key, 
+        .main-framework .pop-in-cancellation-policy .list-items-cart-rate.stacktable.small-only .st-key,
+        .main-framework .pop-in-room-block-policy .list-items-cart-rate.stacktable.small-only .st-key {
+          width: 49%;
+          text-align: right;
+          padding-right: 1%; }
+        .main-framework .main-wrapper .row-hotel .pop-in-rate-room .list-items-cart-rate.stacktable.small-only .st-val,
+        .main-framework .main-wrapper .row-hotel .pop-in-description-room .list-items-cart-rate.stacktable.small-only .st-val, 
+        .main-framework .pop-in-privacy-policy .list-items-cart-rate.stacktable.small-only .st-val, 
+        .main-framework .pop-in-terms-and-conditions .list-items-cart-rate.stacktable.small-only .st-val, 
+        .main-framework .pop-in-cancellation-policy .list-items-cart-rate.stacktable.small-only .st-val,
+        .main-framework .pop-in-room-block-policy .list-items-cart-rate.stacktable.small-only .st-val {
+          width: 49%;
+          padding-left: 1%; }
+    .main-framework .main-wrapper .row-hotel .pop-in-description-room, 
+    .main-framework .pop-in-privacy-policy, 
+    .main-framework .pop-in-terms-and-conditions, 
+    .main-framework .pop-in-cancellation-policy,
+    .main-framework .pop-in-room-block-policy {
+      padding: 0; }
+    .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper {
+      padding: 60px 0 0; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors {
+        width: auto;
+        float: none;
+        overflow: hidden;
+        margin-bottom: 60px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-header {
+          height: auto;
+          float: left;
+          text-align: left;
+          padding-top: 15px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box {
+          float: right; }
+          .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box input {
+            height: 80px;
+            font-size: 48px;
+            line-height: 80px; }
+          .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors .qty-box span {
+            width: 33px;
+            height: 40px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-room .qty-wrapper .qty-selectors:first-child .qty-header {
+          padding-top: 30px; }
+    .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper {
+      width: 50%;
+      margin-bottom: 15px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .addon-icon {
+        height: 70px;
+        padding-bottom: 5px; }
+        .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .addon-icon img {
+          max-height: 100%;
+          height: auto;
+          width: 30%; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper .addon-text .amnt {
+        font-size: 20px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .addon-wrapper:nth-child(2n) {
+        clear: left; }
+    .main-framework .main-wrapper .row-hotel .pop-in-add-room,
+    .main-framework .main-wrapper .row-hotel .pop-in-add-on {
+      padding: 15px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .slct,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .slct {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .dscrb,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .dscrb {
+        font-size: 12px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .amnt,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .amnt {
+        font-size: 18px; }
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .continue,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-room .skip,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .continue,
+      .main-framework .main-wrapper .row-hotel .pop-in-add-on .skip {
+        padding: 0 10px;
+        width: auto; }
+    .main-framework .main-wrapper .row-hotel.grouped-row .inner-hotel .ref-box .add-room {
+      margin: 0;
+      width: calc(100% - 30px);
+      bottom: 15px; }
+    .main-framework .main-wrapper .descriptions .desc {
+      width: auto;
+      margin-bottom: 30px;
+      padding: 0;
+      padding-top: 30px;
+      border-top: 1px solid #dedede;
+      font-size: 12px; }
+      .main-framework .main-wrapper .descriptions .desc h4 {
+        font-size: 24px;
+        margin-bottom: 15px; }
+      .main-framework .main-wrapper .descriptions .desc.desc-list {
+        padding-bottom: 0;
+        border: none; }
+        .main-framework .main-wrapper .descriptions .desc.desc-list ul li {
+          float: none;
+          width: auto; }
+      .main-framework .main-wrapper .descriptions .desc p:last-child {
+        margin-bottom: 0; }
+    .main-framework .main-wrapper .ui-tabs .ui-tabs-nav {
+      font-size: 12px; }
+      .main-framework .main-wrapper .ui-tabs .ui-tabs-nav li a {
+        font-size: 12px;
+        padding: 10px; }
+      .main-framework .main-wrapper .ui-tabs .ui-tabs-nav li.ui-state-active a {
+        padding: 12px; }
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .ui-accordion h3.ui-accordion-header {
+      padding: 15px;
+      line-height: 1.5;
+      font-size: 18px; }
+      .main-framework .main-wrapper .ui-widget.ui-widget-content .ui-accordion h3.ui-accordion-header .ui-accordion-header-icon {
+        height: 35px; }
+      .main-framework .main-wrapper .ui-widget.ui-widget-content .ui-accordion h3.ui-accordion-header span {
+        display: none; }
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .ui-accordion .ui-accordion-content {
+      padding: 15px;
+      font-size: 15px; }
+    .main-framework .main-wrapper .grouped-row.row-hotel .inner-hotel .ref-box .space-subtitle,
+    .main-framework .main-wrapper .ui-widget.ui-widget-content .packages-rooms-list .row-hotel .inner-hotel .ref-box .space-subtitle {
+      top: auto; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form label {
+      width: 30%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form input,
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form textarea {
+      width: 70%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form textarea {
+      max-width: 70%; }
+    .main-framework .main-wrapper .cancellation-wrapper .mr-form p.warning {
+      padding-left: 30%; }
+  .main-framework .footer-wrapper .footer-menu-container,
+  .main-framework .footer-wrapper .copyright-container {
+    font-size: 12px; }
+
+  #ui-datepicker-div {
+    width: 100%;
+    font-size: 16px;
+    left: 0 !important;
+    margin-left: 0 !important;
+    padding: 0 15px 15px; }
+    #ui-datepicker-div .ui-datepicker-header a.ui-datepicker-prev span, #ui-datepicker-div .ui-datepicker-header a.ui-datepicker-next span {
+      height: 20px;
+      margin-top: 4px; }
+    #ui-datepicker-div .ui-datepicker-header a.ui-datepicker-prev span {
+      margin-left: 0px; }
+    #ui-datepicker-div .ui-datepicker-calendar td {
+      width: 10px;
+      height: 10px; }
+
+  .main-framework .main-wrapper .step-one-checkout .guest-checkout,
+  .main-framework .main-wrapper .step-one-checkout .sign-up-or-login {
+    display: none;
+  }
+  .main-framework .main-wrapper .step-one-checkout .guest-checkout-m,
+  .main-framework .main-wrapper .step-one-checkout .sign-up-or-login-m {
+    display: block;
+  }
+  .main-framework .main-wrapper .step-one-checkout .sign-up-or-login-m {
+    margin-bottom: 30px;
+  }
+  .main-framework .main-wrapper .step-one-checkout h3 {
+    font-size: 18px;
+    padding-top: 0;
+    padding-bottom: 27px;
+    margin-bottom: 0;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header, .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header a  {
+    background: none;
+    border: none;
+    font-family: "Brandon_bld";
+    color: #7a7c7b;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header {
+    border-bottom: 1px solid #dedede;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header.ui-state-active {
+    border-bottom: none;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header {
+    padding: 10px 0 12px 13px;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e, .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-state-active .ui-icon {
+    display: none !important;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header a {
+    color: #7a7c7b;
+    pointer-events: none;
+    cursor: default;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header.ui-accordion-header-active a {
+    color: #cd700b;
+    text-decoration: underline;
+    pointer-events: initial;
+    cursor: pointer;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-header .panel-icon {
+    float: right;
+    font-family: "Brandon_bld";
+    font-size: 14px;
+    margin-right: 13px;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-content {
+    border: none;
+    background: none;
+    padding: 10px 0 0;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-content p {
+    font-family: "Brandon_reg";
+    color: #7a7c7b;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-bottom: 25px;
+  }
+  .main-framework .main-wrapper .step-one-checkout .sign-up-or-login-m .ui-accordion .ui-accordion-content p {
+    padding-bottom: 0;
+  }
+  .main-framework .main-wrapper .step-one-checkout .ui-accordion .ui-accordion-content button {
+    font-size: 12px;
+    font-family: "Brandon_bld";
+  }
+
+  .online-processors {
+    margin-bottom: 9px;
+  }
+  .online-processors .op-item {
+    width: 48%;
+  }
+  .online-processors .op-item.op-paypal {
+    margin-right: 0;
+    display: block;
+    float: left;
+  }
+  .online-processors .op-item.op-applepay {
+    display: block;
+    float: right;
+  }
+  .button-box.complete-profile button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tooltip.show-box .tt-box {
+    right: -607%;
+    width: 300px;
+  }
+  .tooltip.show-box .tt-box:after {
+    left: 65%;
+  }
+
+
+       }
+
+@media (min-width: 1041px) and (max-width: 1819px) {
+
+.main-framework .main-wrapper .container {
+  padding: 0 30px;
+}
+.main-framework .header-wrapper .header-contact {
+  top: 2px;
+}
+.main-framework .main-wrapper .mid-wrapper.booking-payment-wrapper,
+.main-framework .main-wrapper .mid-wrapper.review-wrapper {
+  padding: 5px 30px 30px
+}
+
+}
+
+/*# sourceMappingURL=style-responsive.css.map */
